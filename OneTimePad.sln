@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OneTimePad", "OneTimePad.pyproj", "{D06B104B-6E10-4739-AACF-7CF7D2F6150B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D06B104B-6E10-4739-AACF-7CF7D2F6150B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06B104B-6E10-4739-AACF-7CF7D2F6150B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F140DDC9-6195-4D68-AE4E-28BA796436D3}
+	EndGlobalSection
+EndGlobal

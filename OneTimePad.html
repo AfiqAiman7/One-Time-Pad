@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="D:\afiq\degree_sem4\CSC662\group project\One Time Pad\OneTimePad\styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>One-Time Pad Encryption</title>
+</head>
+<body>
+    <div id="capsule">
+        <h1>One-Time Pad Encryption</h1>
+
+        <label for="input">Input</label>
+        <textarea id="input" placeholder="Enter your plaintext"></textarea>
+
+        <label for="key">Key</label>
+        <textarea id="key" placeholder="Enter or generate a key"></textarea>
+        <button id="generate-key" type="button">Generate Key</button>
+
+        <label for="output">Output</label>
+        <textarea id="output" readonly></textarea>
+
+        <div class="button-group">
+            <button id="encrypt" type="button">Encrypt</button>
+            <button id="decrypt" type="button">Decrypt</button>
+            <button id="reset" type="button">Reset</button>
+        </div>
+    </div>
+    <script src="D:\afiq\degree_sem4\CSC662\group project\One Time Pad\OneTimePad\script.js"></script>
+</body>
+</html>
